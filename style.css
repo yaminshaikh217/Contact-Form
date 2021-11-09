@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+body {
+  width: 100vw;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/*         Navbar section          */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  padding: 5rem 10rem;
+}
+
+.logo img {
+  height: 5rem;
+}
+
+.right-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  color: #000000;
+  list-style: none;
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+
+.right-navbar li a.active {
+  color: #0c76ba;
+  text-decoration: underline;
+}
+
+/*      nav Section 2            */
+
+.contactUs {
+  background-color: #0c76ba;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 11rem;
+}
+
+.contactUs h2 {
+  font-size: 2rem;
+}
+
+.contactUs h4 {
+  font-size: 1.5rem;
+}
+
+/*      Form Section      */
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 11rem;
+  flex-wrap: wrap;
+  color: #333;
+}
+
+/*     left form section      */
+
+.left-socials {
+  width: 50%;
+  flex: 1 1 50rem;
+  border-right: 4px #aaa dashed;
+}
+
+.left-socials h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.left-socials p {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.social img {
+  height: 4rem;
+  margin-right: 2rem;
+}
+
+.social div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+/*      Right Form section       */
+
+.right-form {
+  width: 50%;
+  flex: 1 1 50rem;
+}
+
+.name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.form-mail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.radio {
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  padding: 1rem 7rem;
+}
+
+input {
+  border: 1px solid #aaa;
+  padding: 0.8rem 1rem;
+}
+
+.name input,
+.form-mail input {
+  width: 20rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="radio"] {
+  width: 2rem;
+  height: 2rem;
+}
+
+.radio div > label {
+  padding-right: 3rem;
+}
+
+.website {
+  padding: 1rem 7rem;
+}
+
+.website h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.submitBtn {
+  padding: 1rem 7rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  width: 12rem;
+  border: 0;
+  background: #ff7f50;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/*      footer section        */
+
+footer {
+  padding: 1rem 10rem;
+  color: #aaa;
+}
+
+footer a {
+  color: #0c76ba;
+}
+
+@media (max-width: 1222px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+
